@@ -49,10 +49,19 @@ header a:hover, footer a:hover {
 .imagem {
     background-color: aquamarine;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
 }
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
     display: inline-block;
+}
+#img1 {
+    background: rgba(0, 0, 0, 0.253) url('../imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+#img2 {
+    background: rgba(0, 0, 0, 0.253) url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 section {
     font-size: 3.5vw;
@@ -61,6 +70,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+}
+section > p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    padding-bottom: 1em;
 }
 footer {
     background-color: black;
