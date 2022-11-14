@@ -36,7 +36,18 @@ header a:hover, footer a:hover {
 }
 .imagem {
     background-color: aquamarine;
-    color: black;
+    color: white;
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
 }
 footer {
     background-color: black;
